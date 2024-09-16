@@ -47,7 +47,7 @@ function Footer() {
           className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
         />
         <motion.span
-          variants={fadeIn("up", 0.2)}
+          variants={fadeIn("left", 0.2)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}

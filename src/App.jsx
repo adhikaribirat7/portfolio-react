@@ -21,9 +21,9 @@ function App() {
     //     <Footer /> {/* Footer is always visible */}
     // </Router>
     <>
-      <Nav />
-
       <div className="overflow-hidden">
+        <Nav />
+
         <Hero />
         <AboutMe />
         <Services />
