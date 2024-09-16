@@ -20,18 +20,16 @@ function Projects() {
             and capital can unlock long-term value and drive economic growth.
           </p>
         </motion.div>
-        <motion.div 
-                variants={fadeIn("up",0.2)}
-                initial="hidden"
-                whileInView={"show"}
-                viewport={{once:false, amount:0.7}}
-        
-        className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
+        >
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Marketing
-            </h3>
+            <h3 className="mb-2 text-xl font-bold text-white">Marketing</h3>
             <p className="text-gray-500 dark:text-gray-400">
               Plan it, create it, launch it. Collaborate seamlessly with all the
               organization and hit your marketing goals every month with our
@@ -48,7 +46,7 @@ function Projects() {
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-white">
               Business Automation
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
@@ -66,7 +64,7 @@ function Projects() {
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
+            <h3 className="mb-2 text-xl font-bold text-white">
               Enterprise Design
             </h3>
             <p className="text-gray-500 dark:text-gray-400">
@@ -76,9 +74,7 @@ function Projects() {
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">
-              Operations
-            </h3>
+            <h3 className="mb-2 text-xl font-bold text-white">Operations</h3>
             <p className="text-gray-500 dark:text-gray-400">
               Keep your company’s lights on with customizable, iterative, and
               structured workflows built for all efficient teams and individual.
