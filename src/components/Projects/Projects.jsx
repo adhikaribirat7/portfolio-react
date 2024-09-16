@@ -38,7 +38,7 @@ function Projects() {
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">Legal</h3>
+            <h3 className="mb-2 text-xl font-bold text-white">Legal</h3>
             <p className="text-gray-500 dark:text-gray-400">
               Protect your organization, devices and stay compliant with our
               structured workflows and custom permissions made for you.
@@ -56,7 +56,7 @@ function Projects() {
           </div>
           <div>
             <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"></div>
-            <h3 className="mb-2 text-xl font-bold dark:text-white">Finance</h3>
+            <h3 className="mb-2 text-xl font-bold text-white">Finance</h3>
             <p className="text-gray-500 dark:text-gray-400">
               Audit-proof software built for critical financial operations like
               month-end close and quarterly budgeting.
